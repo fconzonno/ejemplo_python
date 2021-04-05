@@ -1,4 +1,4 @@
-texto = (input('Ingrese una frase a codificar: '))
+texto = (input('Ingrese una palabra a codificar: '))
 
 text = ''
 textoCodificado = text.join(list(map(lambda a: chr(ord(a) + 1), texto )))
